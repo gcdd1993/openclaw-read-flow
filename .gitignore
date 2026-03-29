@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local config and secrets
+.env
+.env.*
+*.local.json
+*.local.toml
+freshrss.config.json
+
+# Generated digest and review artifacts
+digests/*
+!digests/.gitkeep
+reviews/*
+!reviews/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
